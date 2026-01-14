@@ -13,12 +13,12 @@ export default function Home() {
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="Nextly Benefits"
-        title=" Why should you use this landing page"
+        preTitle="D8 Labs Benefits"
+        title=" Why you must contract us"
       >
-        Nextly is a free landing page & marketing website template for startups
-        and indie projects. Its built with Next.js & TailwindCSS. And its
-        completely open-source.
+        We have the infrastructure and a high experience team that will solve your problem
+        increasing your performance and decreasing your operative expenses thanks to our AI
+        agents that can automize your tasks
       </SectionTitle>
 
       <Benefits data={benefitOne} />

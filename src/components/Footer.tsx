@@ -18,13 +18,13 @@ export function Footer() {
                 className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100"
               >
                 <Image
-                  src="/img/logo.svg"
+                  src="/img/test.svg"
                   alt="N"
                   width="32"
                   height="32"
                   className="w-8"
                 />
-                <span>Nextly</span>
+                <span>D8 Labs AI</span>
               </Link>
             </div>
 
