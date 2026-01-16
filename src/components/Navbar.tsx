@@ -3,14 +3,15 @@ import Link from "next/link";
 import ThemeChanger from "./DarkSwitch";
 import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
-
+import { LanguageSwitcher } from "@/components/client/LanguageSwitcher";
+import { TranslatedText } from "./client/TranslatedText";
 export const Navbar = () => {
   const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
+    "product",
+    "features",
+    "pricing",
+    "company",
+    "blog",
   ];
 
   return (
@@ -34,6 +35,7 @@ export const Navbar = () => {
 
         {/* get started  */}
         <div className="gap-3 nav__item mr-2 lg:flex ml-auto lg:ml-0 lg:order-2">
+          <LanguageSwitcher />
             <ThemeChanger />
             <div className="hidden mr-3 lg:flex nav__item">
               <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
@@ -72,7 +74,7 @@ export const Navbar = () => {
                   <>
                     {navigation.map((item, index) => (
                       <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
-                          {item}
+                          <TranslatedText i18nKey={`navBar.${item}`} />
                       </Link>
                     ))}
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
@@ -90,7 +92,7 @@ export const Navbar = () => {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
-                    {menu}
+                    <TranslatedText i18nKey={`navBar.${menu}`} />
                 </Link>
               </li>
             ))}
