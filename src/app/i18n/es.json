@@ -1,0 +1,20 @@
+{
+      "navBar":{
+        "product":"Producto",
+        "features":"Caracteristicas",
+        "pricing":"Precios",
+        "company":"Compañia",
+        "blog":"Blog"
+      },
+      "section1":{
+         "whatisd8labs":"¿Que es D8 Labs?",
+         "description":"Somos una startup que reducirá tu tiempo de respuesta en 2x utilizando nuestros agentes de IA que automatizarán las tareas para mejorar el rendimiento y tener más control sobre los datos para ser más inteligentes al momento de tomar decisiones.",
+         "demo":"Haz una demo con nosotros",
+         "trustedBy": "Socio Principal"
+      },
+      "section2":{
+         "benefitsPreTitle": "Beneficios de D8 Labs",
+         "contractus":"¿Por qué debes contratarnos?",
+         "description":"Contamos con la infraestructura y un equipo de alta experiencia que resolverá tu problema aumentando tu rendimiento y disminuyendo tus gastos operativos gracias a nuestros agentes de IA que pueden automatizar tus tareas."
+      }
+}

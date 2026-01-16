@@ -6,19 +6,17 @@ import { Video } from "@/components/Video";
 import { Testimonials } from "@/components/Testimonials";
 import { Faq } from "@/components/Faq";
 import { Cta } from "@/components/Cta";
-
 import { benefitOne, benefitTwo } from "@/components/data";
+import { TranslatedText } from "@/components/client/TranslatedText";
 export default function Home() {
   return (
     <Container>
       <Hero />
       <SectionTitle
-        preTitle="D8 Labs Benefits"
-        title=" Why you must contract us"
+        preTitle={<TranslatedText i18nKey="section2.benefitsPreTitle" />}
+        title={<TranslatedText i18nKey="section2.contractus" />}
       >
-        We have the infrastructure and a high experience team that will solve your problem
-        increasing your performance and decreasing your operative expenses thanks to our AI
-        agents that can automize your tasks
+       <TranslatedText i18nKey="section1.description" />
       </SectionTitle>
 
       <Benefits data={benefitOne} />

@@ -2,6 +2,7 @@ import Image from "next/image";
 import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
 import wekallLogo from "../../public/img/wekall.png"
+import { TranslatedText } from "@/components/client/TranslatedText";
 export const Hero = () => {
   return (
     <>
@@ -9,12 +10,10 @@ export const Hero = () => {
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
-              What is D8 Labs
+              <TranslatedText i18nKey="section1.whatisd8labs" />
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
-              We are a startup that will reduce your response time in 2x using our AI agents
-              that will automate the tasks to improve the perfomance and have more control about
-              the data to be more clever at the time to take decisions
+             <TranslatedText i18nKey="section1.description" />
             </p>
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
@@ -22,7 +21,7 @@ export const Hero = () => {
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-indigo-600 rounded-md ">
-                Take a Demo with us
+               <TranslatedText i18nKey="section1.demo" />
               </a>
               <a
                 href="https://github.com/web3templates/nextly-template/"
@@ -62,8 +61,7 @@ export const Hero = () => {
       <Container>
         <div className="flex flex-col justify-center">
           <div className="text-xl text-center text-gray-700 dark:text-white">
-            Trusted by <span className="text-indigo-600">2000+</span>{" "}
-            customers worldwide
+            <TranslatedText i18nKey="section1.trustedBy" /> <span className="text-indigo-600">WEKALL</span>{" "}
           </div>
 
           <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
