@@ -16,7 +16,7 @@ export default function Home() {
         preTitle={<TranslatedText i18nKey="section2.benefitsPreTitle" />}
         title={<TranslatedText i18nKey="section2.contractus" />}
       >
-       <TranslatedText i18nKey="section1.description" />
+       <TranslatedText i18nKey="section2.description" />
       </SectionTitle>
 
       <Benefits data={benefitOne} />

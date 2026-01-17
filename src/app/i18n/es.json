@@ -16,5 +16,20 @@
          "benefitsPreTitle": "Beneficios de D8 Labs",
          "contractus":"¿Por qué debes contratarnos?",
          "description":"Contamos con la infraestructura y un equipo de alta experiencia que resolverá tu problema aumentando tu rendimiento y disminuyendo tus gastos operativos gracias a nuestros agentes de IA que pueden automatizar tus tareas."
+      },
+      "products":{
+         "title":"Transformación Digital Empresarial",
+         "description":"Impulsamos la eficiencia operacional mediante la integración estratégica de agentes de IA autónomos que automatizan procesos críticos de negocio end-to-end. Nuestra plataforma de automatización inteligente optimiza workflows empresariales, reduciendo ciclos operacionales hasta en un 70%.",
+         "description2":"Eliminamos errores de proceso que generan sobrecostos operacionales. A través de machine learning predictivo y análisis de patrones en tiempo real, garantizamos la continuidad operativa y maximizamos el ROI desde el primer día de implementación. Nuestros clientes experimentan una reducción del 85% en errores manuales y mejoran su time-to-market significativamente.",
+         "demo":"Agendar Demo",
+         "benefits":"Diferenciador de Nuestro Producto",
+         "point1":"Escalabilidad Enterprise-Grade",
+         "point1description":"Arquitectura cloud-native diseñada para escalar desde startups hasta Fortune 500. Soporta cargas de trabajo masivas con latencia ultra-baja y disponibilidad del 99.9% garantizada mediante infraestructura distribuida.",
+         "point2":"ROI Medible y Acelerado",
+         "point2description":"Nuestros clientes reportan un payback period de 3-6 meses. Analytics en tiempo real y KPIs personalizables permiten tracking granular del impacto en productividad, reducción de costos operativos y mejora en conversion rates.",
+         "point3":"Security & Compliance by Design",
+         "point3description":"Cumplimiento SOC 2 Type II, GDPR y certificaciones ISO. Encriptación AES-256 end-to-end, auditorías continuas y controles de acceso basados en zero-trust architecture protegen datos críticos de negocio.",
+         "point4":"Implementation & Support Excellence",
+         "point4description":"Onboarding white-glove en 48 horas. Equipo dedicado de Customer Success disponible 24/7/365 con SLA de respuesta menos de 15 minutos. Integraciones nativas con 200+ herramientas empresariales vía APIs robustas."
       }
 }

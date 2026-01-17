@@ -6,28 +6,28 @@ import {
   AdjustmentsHorizontalIcon,
   SunIcon,
 } from "@heroicons/react/24/solid";
-
+import { TranslatedText } from "@/components/client/TranslatedText";
 import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Highlight your benefits",
-  desc: "You can use this space to highlight your first benefit or a feature of your product. It can also contain an image or Illustration like in the example along with some bullet points.",
+  title: "Benefits for your company",
+  desc: "Garantizaremos que la solución brindada creara un impacto disruptivo que hara evolucionar la forma en que se realizan las actividades manuales dando transición a una automatización",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand your customers",
-      desc: "Then explain the first point breifly in one or two lines.",
+      title: "Understand the problem",
+      desc: "Realizamos un acompañamiento durante toda la transición de la solución con el fin de ser lo mas preciso con nuestros clientes y sus oportunidades de mejora",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Improve acquisition",
-      desc: "Here you can add the next benefit point.",
+      title: "Accurate Solution",
+      desc: "Las soluciones dadas se adaptan a las circunstancias y al entorno, con el fin de garantizar que sea una única solución sin necesidada de iteraciones post entrega",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Drive customer retention",
-      desc: "This will be your last bullet point in this section.",
+      title: "Build on what is established",
+      desc: "Nuestro producto ofrece una integración limpia con los sistemas existentes, con el fin de crear una capa adicional que se encargara de mejorar y automatizar lo que ya esta creado",
       icon: <CursorArrowRaysIcon />,
     },
   ],
