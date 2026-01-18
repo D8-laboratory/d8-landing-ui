@@ -8,9 +8,9 @@ import { TranslatedText } from "./client/TranslatedText";
 export const Navbar = () => {
   const navigation = [
     { name: "product", href: "/product" },
-    { name: "features", href: "/features" },
+    // { name: "features", href: "/features" },
     { name: "pricing", href: "/pricing" },
-    { name: "company", href: "/company" },
+    // { name: "company", href: "/company" },
     { name: "blog", href: "/blog" },
   ];
 
@@ -39,7 +39,7 @@ export const Navbar = () => {
           <ThemeChanger />
           <div className="hidden mr-3 lg:flex nav__item">
             <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Get Started
+              <TranslatedText i18nKey="navBar.getstarted" />
             </Link>
           </div>
         </div>
@@ -81,7 +81,7 @@ export const Navbar = () => {
                     </Link>
                   ))}
                   <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                    Get Started
+                    <TranslatedText i18nKey="navBar.getstarted" />
                   </Link>
                 </>
               </Disclosure.Panel>
