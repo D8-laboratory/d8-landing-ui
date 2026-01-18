@@ -11,46 +11,46 @@ import benefitOneImg from "../../public/img/benefit-one.png";
 import benefitTwoImg from "../../public/img/benefit-two.png";
 
 const benefitOne = {
-  title: "Benefits for your company",
-  desc: "Garantizaremos que la solución brindada creara un impacto disruptivo que hara evolucionar la forma en que se realizan las actividades manuales dando transición a una automatización",
+  title: "benefits.title",
+  desc: "benefits.description",
   image: benefitOneImg,
   bullets: [
     {
-      title: "Understand the problem",
-      desc: "Realizamos un acompañamiento durante toda la transición de la solución con el fin de ser lo mas preciso con nuestros clientes y sus oportunidades de mejora",
+      title: "benefits.benefit1",
+      desc: "benefits.benefit1description",
       icon: <FaceSmileIcon />,
     },
     {
-      title: "Accurate Solution",
-      desc: "Las soluciones dadas se adaptan a las circunstancias y al entorno, con el fin de garantizar que sea una única solución sin necesidada de iteraciones post entrega",
+      title: "benefits.benefit2",
+      desc: "benefits.benefit2description",
       icon: <ChartBarSquareIcon />,
     },
     {
-      title: "Build on what is established",
-      desc: "Nuestro producto ofrece una integración limpia con los sistemas existentes, con el fin de crear una capa adicional que se encargara de mejorar y automatizar lo que ya esta creado",
+      title: "benefits.benefit3",
+      desc: "benefits.benefit3description",
       icon: <CursorArrowRaysIcon />,
     },
   ],
 };
 
 const benefitTwo = {
-  title: "Offer more benefits here",
-  desc: "You can use this same layout with a flip image to highlight your rest of the benefits of your product. It can also contain an image or Illustration as above section along with some bullet points.",
+  title: "benefits2.title",
+  desc: "benefits2.description",
   image: benefitTwoImg,
   bullets: [
     {
-      title: "Mobile Responsive Template",
-      desc: "Nextly is designed as a mobile first responsive template.",
+      title: "benefits2.benefit1",
+      desc: "benefits2.benefit1description",
       icon: <DevicePhoneMobileIcon />,
     },
     {
-      title: "Powered by Next.js & TailwindCSS",
-      desc: "This template is powered by latest technologies and tools.",
+      title: "benefits2.benefit2",
+      desc: "benefits2.benefit2description",
       icon: <AdjustmentsHorizontalIcon />,
     },
     {
-      title: "Dark & Light Mode",
-      desc: "Nextly comes with a zero-config light & dark mode. ",
+       title: "benefits2.benefit3",
+      desc: "benefits2.benefit3description",
       icon: <SunIcon />,
     },
   ],

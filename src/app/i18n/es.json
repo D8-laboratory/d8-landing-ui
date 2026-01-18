@@ -1,35 +1,58 @@
 {
-      "navBar":{
-        "product":"Producto",
-        "features":"Caracteristicas",
-        "pricing":"Precios",
-        "company":"Compañia",
-        "blog":"Blog"
-      },
-      "section1":{
-         "whatisd8labs":"¿Que es D8 Labs?",
-         "description":"Somos una startup que reducirá tu tiempo de respuesta en 2x utilizando nuestros agentes de IA que automatizarán las tareas para mejorar el rendimiento y tener más control sobre los datos para ser más inteligentes al momento de tomar decisiones.",
-         "demo":"Haz una demo con nosotros",
-         "trustedBy": "Socio Principal"
-      },
-      "section2":{
-         "benefitsPreTitle": "Beneficios de D8 Labs",
-         "contractus":"¿Por qué debes contratarnos?",
-         "description":"Contamos con la infraestructura y un equipo de alta experiencia que resolverá tu problema aumentando tu rendimiento y disminuyendo tus gastos operativos gracias a nuestros agentes de IA que pueden automatizar tus tareas."
-      },
-      "products":{
-         "title":"Transformación Digital Empresarial",
-         "description":"Impulsamos la eficiencia operacional mediante la integración estratégica de agentes de IA autónomos que automatizan procesos críticos de negocio end-to-end. Nuestra plataforma de automatización inteligente optimiza workflows empresariales, reduciendo ciclos operacionales hasta en un 70%.",
-         "description2":"Eliminamos errores de proceso que generan sobrecostos operacionales. A través de machine learning predictivo y análisis de patrones en tiempo real, garantizamos la continuidad operativa y maximizamos el ROI desde el primer día de implementación. Nuestros clientes experimentan una reducción del 85% en errores manuales y mejoran su time-to-market significativamente.",
-         "demo":"Agendar Demo",
-         "benefits":"Diferenciador de Nuestro Producto",
-         "point1":"Escalabilidad Enterprise-Grade",
-         "point1description":"Arquitectura cloud-native diseñada para escalar desde startups hasta Fortune 500. Soporta cargas de trabajo masivas con latencia ultra-baja y disponibilidad del 99.9% garantizada mediante infraestructura distribuida.",
-         "point2":"ROI Medible y Acelerado",
-         "point2description":"Nuestros clientes reportan un payback period de 3-6 meses. Analytics en tiempo real y KPIs personalizables permiten tracking granular del impacto en productividad, reducción de costos operativos y mejora en conversion rates.",
-         "point3":"Security & Compliance by Design",
-         "point3description":"Cumplimiento SOC 2 Type II, GDPR y certificaciones ISO. Encriptación AES-256 end-to-end, auditorías continuas y controles de acceso basados en zero-trust architecture protegen datos críticos de negocio.",
-         "point4":"Implementation & Support Excellence",
-         "point4description":"Onboarding white-glove en 48 horas. Equipo dedicado de Customer Success disponible 24/7/365 con SLA de respuesta menos de 15 minutos. Integraciones nativas con 200+ herramientas empresariales vía APIs robustas."
-      }
+  "navBar": {
+    "product": "Producto",
+    "features": "Caracteristicas",
+    "pricing": "Precios",
+    "company": "Compañia",
+    "blog": "Blog"
+  },
+  "section1": {
+    "whatisd8labs": "¿Que es D8 Labs?",
+    "description": "Somos una startup que reducirá tu tiempo de respuesta en 2x utilizando nuestros agentes de IA que automatizarán las tareas para mejorar el rendimiento y tener más control sobre los datos para ser más inteligentes al momento de tomar decisiones.",
+    "demo": "Haz una demo con nosotros",
+    "trustedBy": "Socio Principal"
+  },
+  "section2": {
+    "benefitsPreTitle": "Beneficios de D8 Labs",
+    "contractus": "¿Por qué debes contratarnos?",
+    "description": "Contamos con la infraestructura y un equipo de alta experiencia que resolverá tu problema aumentando tu rendimiento y disminuyendo tus gastos operativos gracias a nuestros agentes de IA que pueden automatizar tus tareas."
+  },
+  "benefits": {
+    "title": "Beneficios para tu empresa",
+    "description": "Garantizamos que la solución proporcionada generará un impacto disruptivo que transformará la forma en que se realizan las actividades manuales, llevándolas hacia la automatización.",
+    "benefit1": "Comprender el problema",
+    "benefit1description": "Brindamos acompañamiento durante toda la transición de la solución para ser lo más precisos posible con nuestros clientes y sus oportunidades de mejora.",
+    "benefit2": "Solución precisa",
+    "benefit2description": "Las soluciones proporcionadas se adaptan a las circunstancias y al entorno, garantizando que sea una solución única sin necesidad de iteraciones posteriores a la entrega.",
+    "benefit3": "Construir sobre lo establecido",
+    "benefit3description": "Nuestro producto ofrece una integración fluida con los sistemas existentes, creando una capa adicional para potenciar y automatizar lo que ya está en funcionamiento."
+  },
+  "benefits2": {
+    "title": "Optimización escalable para call centers",
+    "description": "Nuestra plataforma se adapta de forma transparente a call centers existentes, integrándose con la infraestructura y los flujos de trabajo actuales para mejorar la eficiencia operativa, aumentar los márgenes y maximizar la productividad de los agentes sin interrumpir las operaciones diarias.",
+    "benefit1": "Adaptado a tu modelo de negocio",
+    "benefit1description": "Construimos sobre nuestra tecnología base y la personalizamos para ajustarla a las necesidades, procesos y objetivos específicos de tu empresa, asegurando una solución alineada con tu realidad operativa.",
+    "benefit2": "Gestión interna de ventas y cobranzas",
+    "benefit2description": "Gestiona las ventas y las cobranzas de forma interna con acceso completo a nuestro software, brindando a tu equipo control total, visibilidad en tiempo real e información basada en datos para optimizar el rendimiento y la conversión.",
+    "benefit3": "Crecimiento de márgenes mediante automatización inteligente",
+    "benefit3description": "Al automatizar interacciones repetitivas y procesos de toma de decisiones, reducimos los costos operativos mientras aumentamos la capacidad de operación, permitiendo una mayor rentabilidad sin incrementar el personal."
+  },
+  "products": {
+    "title": "Transformación Digital Empresarial",
+    "description": "Impulsamos la eficiencia operacional mediante la integración estratégica de agentes de IA autónomos que automatizan procesos críticos de negocio end-to-end. Nuestra plataforma de automatización inteligente optimiza workflows empresariales, reduciendo ciclos operacionales hasta en un 70%.",
+    "description2": "Eliminamos errores de proceso que generan sobrecostos operacionales. A través de machine learning predictivo y análisis de patrones en tiempo real, garantizamos la continuidad operativa y maximizamos el ROI desde el primer día de implementación. Nuestros clientes experimentan una reducción del 85% en errores manuales y mejoran su time-to-market significativamente.",
+    "demo": "Agendar Demo",
+    "benefits": "Diferenciador de Nuestro Producto",
+    "point1": "Escalabilidad Enterprise-Grade",
+    "point1description": "Arquitectura cloud-native diseñada para escalar desde startups hasta Fortune 500. Soporta cargas de trabajo masivas con latencia ultra-baja y disponibilidad del 99.9% garantizada mediante infraestructura distribuida.",
+    "point2": "ROI Medible y Acelerado",
+    "point2description": "Nuestros clientes reportan un payback period de 3-6 meses. Analytics en tiempo real y KPIs personalizables permiten tracking granular del impacto en productividad, reducción de costos operativos y mejora en conversion rates.",
+    "point3": "Security & Compliance by Design",
+    "point3description": "Cumplimiento SOC 2 Type II, GDPR y certificaciones ISO. Encriptación AES-256 end-to-end, auditorías continuas y controles de acceso basados en zero-trust architecture protegen datos críticos de negocio.",
+    "point4": "Implementation & Support Excellence",
+    "point4description": "Onboarding white-glove en 48 horas. Equipo dedicado de Customer Success disponible 24/7/365 con SLA de respuesta menos de 15 minutos. Integraciones nativas con 200+ herramientas empresariales vía APIs robustas."
+  },
+  "footer":{
+    "description":"D8 Labs AI integra agentes de IA para automatizar procesos empresariales end-to-end. Eliminamos errores manuales, reducimos costos operacionales y aceleramos la transformación digital de tu negocio con soluciones de machine learning escalables."
+  }
 }
