@@ -16,13 +16,13 @@ export default function Home() {
         preTitle={<TranslatedText i18nKey="section2.benefitsPreTitle" />}
         title={<TranslatedText i18nKey="section2.contractus" />}
       >
-       <TranslatedText i18nKey="section1.description" />
+       <TranslatedText i18nKey="section2.description" />
       </SectionTitle>
 
       <Benefits data={benefitOne} />
       <Benefits imgPos="right" data={benefitTwo} />
 
-      <SectionTitle
+      {/* <SectionTitle
         preTitle="Watch a video"
         title="Learn how to fullfil your needs"
       >
@@ -41,7 +41,7 @@ export default function Home() {
         Use this section to highlight your popular customers.
       </SectionTitle>
 
-      <Testimonials />
+      <Testimonials /> */}
 
       <SectionTitle preTitle="FAQ" title="Frequently Asked Questions">
         Answer your customers possible questions here, it will increase the
@@ -49,7 +49,7 @@ export default function Home() {
       </SectionTitle>
 
       <Faq />
-      <Cta />
+      {/* <Cta /> */}
     </Container>
   );
 }

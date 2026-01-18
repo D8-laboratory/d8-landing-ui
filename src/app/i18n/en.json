@@ -1,21 +1,59 @@
 {
-      "navBar":{
-        "product":"Product",
-        "features":"Features",
-        "pricing":"Pricing",
-        "company":"Company",
-        "blog":"Blog"
-      },
-      "section1":{
-         "whatisd8labs":"What is D8 Labs",
-         "description":"We are a startup that will reduce your response time in 2x using our AI agents that will automate the tasks to improve the perfomance and have more control about the data to be more clever at the time to take decisions",
-         "demo":"Take a Demo with us",
-         "trustedBy": "Trusted By"
-      },
-      "section2":{
-         "benefitsPreTitle": "D8 Labs Benefits",
-         "contractus":"Why you must contract us",
-         "description":"We have the infrastructure and a high experience team that will solve your problem increasing your performance and decreasing your operative expenses thanks to our AI agents that can automize your tasks"
-      }
+  "navBar": {
+    "product": "Product",
+    "features": "Features",
+    "pricing": "Pricing",
+    "company": "Company",
+    "blog": "Blog",
+    "getstarted":"Get Started"
+  },
+  "section1": {
+    "whatisd8labs": "What is D8 Labs",
+    "description": "We are a startup that will reduce your response time in 2x using our AI agents that will automate the tasks to improve the perfomance and have more control about the data to be more clever at the time to take decisions",
+    "demo": "Take a Demo with us",
+    "trustedBy": "Trusted By"
+  },
+  "section2": {
+    "benefitsPreTitle": "D8 Labs Benefits",
+    "contractus": "Why you must contract us",
+    "description": "We have the infrastructure and a high experience team that will solve your problem increasing your performance and decreasing your operative expenses thanks to our AI agents that can automize your tasks"
+  },
+  "benefits": {
+    "title": "Benefits for your company",
+    "description": "We will guarantee that the solution provided will create a disruptive impact that will evolve the way manual activities are performed, transitioning to automation.",
+    "benefit1": "Understand the problem",
+    "benefit1description": "We provide support throughout the entire solution transition in order to be as precise as possible with our clients and their opportunities for improvement.",
+    "benefit2": "Accurate Solution",
+    "benefit2description": "The solutions provided are tailored to the circumstances and environment, in order to ensure that it is a single solution without the need for post-delivery iterations.",
+    "benefit3": "Build on what is established",
+    "benefit3description": "Our product offers seamless integration with existing systems, creating an additional layer to enhance and automate what is already in place."
+  },
+  "benefits2": {
+    "title": "Scalable Call Center Optimization",
+    "description": "Our platform seamlessly adapts to existing call centers, integrating with current infrastructure and workflows to improve operational efficiency, increase margins, and maximize agent productivity without disrupting daily operations.",
+    "benefit1": "Tailored to Your Business Model",
+    "benefit1description": "We build on top of our core technology and customize it to match your company’s specific needs, processes, and objectives, ensuring a solution that aligns perfectly with your operational reality.",
+    "benefit2": "In-House Sales & Collections Management",
+    "benefit2description": "Manage sales and collections internally with full access to our software, giving your team complete control, real-time visibility, and data-driven insights to optimize performance and conversion rates.",
+    "benefit3": "Margin Growth Through Intelligent Automation",
+    "benefit3description": "By automating repetitive interactions and decision-making processes, we reduce operational costs while increasing throughput, enabling higher profitability without increasing headcount."
+  },
+  "products": {
+    "title": "Enterprise Digital Transformation",
+    "description": "We drive operational efficiency through the strategic integration of autonomous AI agents that automate critical end-to-end business processes. Our intelligent automation platform optimizes enterprise workflows, reducing operational cycles by up to 70%.",
+    "description2": "We eliminate process errors that generate operational cost overruns. Through predictive machine learning and real-time pattern analysis, we ensure operational continuity and maximize ROI from day one of implementation. Our clients experience an 85% reduction in manual errors and significantly improve their time-to-market.",
+    "demo": "Schedule a Demo",
+    "benefits": "Our Product Differentiator",
+    "point1": "Enterprise-Grade Scalability",
+    "point1description": "Cloud-native architecture designed to scale from startups to Fortune 500 companies. Supports massive workloads with ultra-low latency and 99.9% availability guaranteed through distributed infrastructure.",
+    "point2": "Measurable and Accelerated ROI",
+    "point2description": "Our clients report a payback period of 3–6 months. Real-time analytics and customizable KPIs enable granular tracking of productivity impact, operational cost reduction, and conversion rate improvements.",
+    "point3": "Security & Compliance by Design",
+    "point3description": "SOC 2 Type II, GDPR compliance, and ISO certifications. End-to-end AES-256 encryption, continuous audits, and zero-trust–based access controls protect critical business data.",
+    "point4": "Implementation & Support Excellence",
+    "point4description": "White-glove onboarding within 48 hours. Dedicated Customer Success team available 24/7/365 with SLA response times under 15 minutes. Native integrations with 200+ enterprise tools via robust APIs."
+  },
+  "footer":{
+    "description":"D8 Labs AI integrates AI agents to automate end-to-end business processes. We eliminate manual errors, reduce operational costs, and accelerate your business's digital transformation with scalable machine learning solutions."
+  }
 }
-
