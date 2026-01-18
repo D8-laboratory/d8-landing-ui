@@ -2,7 +2,7 @@ import Image from "next/image";
 import { TranslatedText } from "../../components/client/TranslatedText";
 import  Enterprise from "../../../public/img/enterprise.png"
 import  Enterprise2 from "../../../public/img/enterprise2.png"
-export const ProductPage=()=> {
+const ProductPage=()=> {
   return (
     <div className="min-h-screen">
       {/* Sección 1: Descripción del Producto */}
