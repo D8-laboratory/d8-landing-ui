@@ -45,13 +45,13 @@
     "demo": "Schedule a Demo",
     "benefits": "Our Product Differentiator",
     "point1": "Enterprise-Grade Scalability",
-    "point1description": "Cloud-native architecture designed to scale from startups to Fortune 500 companies. Supports massive workloads with ultra-low latency and 99.9% availability guaranteed through distributed infrastructure.",
+    "point1description": "Our engineering team designs cloud-native architectures built to scale with your business growth. We develop solutions that handle massive workloads with ultra-low latency, leveraging distributed infrastructure to ensure high availability and performance from day one.",
     "point2": "Measurable and Accelerated ROI",
-    "point2description": "Our clients report a payback period of 3–6 months. Real-time analytics and customizable KPIs enable granular tracking of productivity impact, operational cost reduction, and conversion rate improvements.",
+    "point2description": "We build analytics dashboards and customizable KPI tracking into every solution, enabling granular visibility into productivity gains, operational cost reductions, and conversion rate improvements. Our implementations are designed to deliver measurable impact within the first quarter.",
     "point3": "Security & Compliance by Design",
-    "point3description": "SOC 2 Type II, GDPR compliance, and ISO certifications. End-to-end AES-256 encryption, continuous audits, and zero-trust–based access controls protect critical business data.",
+    "point3description": "Security is embedded in our development process from the ground up. We implement industry-standard end-to-end AES-256 encryption, zero-trust access controls, and follow best practices aligned with SOC 2, GDPR, and ISO frameworks to protect your critical business data throughout every stage of development and deployment.",
     "point4": "Implementation & Support Excellence",
-    "point4description": "White-glove onboarding within 48 hours. Dedicated Customer Success team available 24/7/365 with SLA response times under 15 minutes. Native integrations with 200+ enterprise tools via robust APIs."
+    "point4description": "Our team provides hands-on onboarding and works closely with you throughout development and deployment. We build robust integrations with your existing enterprise tools and ensure your team has the training and support needed to maximize the solution's impact from launch."
   },
   "footer":{
     "description":"D8 Labs AI integrates AI agents to automate end-to-end business processes. We eliminate manual errors, reduce operational costs, and accelerate your business's digital transformation with scalable machine learning solutions."

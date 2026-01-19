@@ -19,9 +19,9 @@ const ProductPage=()=> {
             <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
               <TranslatedText i18nKey="products.description2" />
             </p>
-            <button className="px-8 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors font-semibold">
+            {/* <button className="px-8 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition-colors font-semibold">
               <TranslatedText i18nKey="products.demo" />
-            </button>
+            </button> */}
           </div>
 
           {/* Imagen - Derecha */}
