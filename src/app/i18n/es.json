@@ -44,14 +44,14 @@
     "description2": "Eliminamos errores de proceso que generan sobrecostos operacionales. A través de machine learning predictivo y análisis de patrones en tiempo real, garantizamos la continuidad operativa y maximizamos el ROI desde el primer día de implementación. Nuestros clientes experimentan una reducción del 85% en errores manuales y mejoran su time-to-market significativamente.",
     "demo": "Agendar Demo",
     "benefits": "Diferenciador de Nuestro Producto",
-    "point1": "Escalabilidad Enterprise-Grade",
-    "point1description": "Arquitectura cloud-native diseñada para escalar desde startups hasta Fortune 500. Soporta cargas de trabajo masivas con latencia ultra-baja y disponibilidad del 99.9% garantizada mediante infraestructura distribuida.",
-    "point2": "ROI Medible y Acelerado",
-    "point2description": "Nuestros clientes reportan un payback period de 3-6 meses. Analytics en tiempo real y KPIs personalizables permiten tracking granular del impacto en productividad, reducción de costos operativos y mejora en conversion rates.",
-    "point3": "Security & Compliance by Design",
-    "point3description": "Cumplimiento SOC 2 Type II, GDPR y certificaciones ISO. Encriptación AES-256 end-to-end, auditorías continuas y controles de acceso basados en zero-trust architecture protegen datos críticos de negocio.",
-    "point4": "Implementation & Support Excellence",
-    "point4description": "Onboarding white-glove en 48 horas. Equipo dedicado de Customer Success disponible 24/7/365 con SLA de respuesta menos de 15 minutos. Integraciones nativas con 200+ herramientas empresariales vía APIs robustas."
+    "point1": "Escalabilidad de nivel empresarial",
+    "point1description": "Nuestro equipo de ingeniería diseña arquitecturas cloud-native preparadas para escalar junto con el crecimiento de tu negocio. Desarrollamos soluciones capaces de manejar cargas de trabajo masivas con latencia ultra baja, aprovechando infraestructura distribuida para garantizar alta disponibilidad y rendimiento desde el primer día.",
+    "point2": "ROI medible y acelerado",
+    "point2description": "Incorporamos dashboards analíticos y seguimiento de KPIs personalizables en cada solución, permitiendo una visibilidad detallada de las mejoras en productividad, la reducción de costos operativos y el aumento en las tasas de conversión. Nuestras implementaciones están diseñadas para generar impacto medible dentro del primer trimestre.",
+    "point3": "Seguridad y cumplimiento desde el diseño",
+    "point3description": "La seguridad está integrada en nuestro proceso de desarrollo desde cero. Implementamos cifrado AES-256 de extremo a extremo, estándares de la industria, controles de acceso de confianza cero y seguimos las mejores prácticas alineadas con los marcos SOC 2, RGPD e ISO para proteger sus datos empresariales críticos en cada etapa del desarrollo y la implementación.",
+    "point4": "Excelencia en implementación y soporte",
+    "point4description": "Nuestro equipo ofrece un onboarding práctico y trabaja de forma cercana contigo durante todo el desarrollo y despliegue. Construimos integraciones robustas con tus herramientas empresariales existentes y garantizamos que tu equipo cuente con la capacitación y el soporte necesarios para maximizar el impacto de la solución desde su lanzamiento."
   },
   "footer":{
     "description":"D8 Labs AI integra agentes de IA para automatizar procesos empresariales end-to-end. Eliminamos errores manuales, reducimos costos operacionales y aceleramos la transformación digital de tu negocio con soluciones de machine learning escalables."
