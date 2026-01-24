@@ -8,7 +8,6 @@ export default async function initTranslations(locale: string, namespaces: strin
 
   await i18nInstance
     .use(initReactI18next)
-    // Esto busca tus archivos en src/app/i18n/es.json, etc.
     .use(resourcesToBackend((language: string, namespace: string) => 
       import(`./i18n/${language}.json`)
     ))

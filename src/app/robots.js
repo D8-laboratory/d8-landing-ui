@@ -8,3 +8,4 @@ export default function robots() {
       sitemap: 'https://www.d8labs.ai/sitemap.xml', 
     }
   }
+  

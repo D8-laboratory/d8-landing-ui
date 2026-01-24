@@ -16,7 +16,6 @@ export function I18nProvider({
 }) {
   const i18n = createInstance();
 
-  // Inicialización rápida para el cliente usando los recursos ya cargados
   i18n.init({
     lng: locale,
     resources,
