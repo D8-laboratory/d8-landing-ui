@@ -5,20 +5,20 @@ import Image from "next/image"
 import { Disclosure } from "@headlessui/react";
 import { LanguageSwitcher } from "@/components/client/LanguageSwitcher";
 import { TranslatedText } from "./client/TranslatedText";
+import { useParams } from "next/navigation";
+
 export const Navbar = () => {
+  const params = useParams();
+  const locale = params.locale || "es";
   const navigation = [
-    { name: "product", href: "/product" },
-    // { name: "features", href: "/features" },
-    { name: "pricing", href: "/pricing" },
-    // { name: "company", href: "/company" },
-    { name: "blog", href: "/blog" },
+    { name: "product", href: `/${locale}/product` },
   ];
 
   return (
     <div className="w-full">
       <nav className="container relative flex flex-wrap items-center justify-between p-8 mx-auto lg:justify-between xl:px-1">
         {/* Logo  */}
-        <Link href="/">
+        <Link href={`/${locale}`}>
           <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
             <span>
               <Image
@@ -38,7 +38,7 @@ export const Navbar = () => {
           <LanguageSwitcher />
           <ThemeChanger />
           <div className="hidden mr-3 lg:flex nav__item">
-            <Link href="/" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+            <Link href={`/${locale}`} className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
               <TranslatedText i18nKey="navBar.getstarted" />
             </Link>
           </div>

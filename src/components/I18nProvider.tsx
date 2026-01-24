@@ -1,14 +1,33 @@
-"use client"
+'use client';
+
+import { I18nextProvider } from 'react-i18next';
+import initTranslations from '@/app/i18n';
+import { createInstance } from 'i18next';
 import { ReactNode } from 'react';
-import '../app/i18n'; 
 
-interface I18nProviderProps {
-  children: ReactNode;
+export function I18nProvider({ 
+  children, 
+  locale, 
+  resources 
+}: { 
+  children: ReactNode, 
+  locale: string, 
+  resources: any 
+}) {
+  const i18n = createInstance();
+
+  i18n.init({
+    lng: locale,
+    resources,
+    fallbackLng: 'en',
+    supportedLngs: ['en', 'es', 'fr'],
+    defaultNS: locale,
+    ns: [locale],
+  });
+
+  return (
+    <I18nextProvider i18n={i18n}>
+      {children}
+    </I18nextProvider>
+  );
 }
-
-export function I18nProvider({ children }: I18nProviderProps) {
-  return <>{children}</>;
-}
-
-// Hook personalizado para usar en cualquier componente
-export { useTranslation } from 'react-i18next';

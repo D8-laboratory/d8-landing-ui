@@ -1,7 +1,7 @@
 import Image from "next/image";
-import { TranslatedText } from "../../components/client/TranslatedText";
-import  Enterprise from "../../../public/img/enterprise.png"
-import  Enterprise2 from "../../../public/img/enterprise2.png"
+import { TranslatedText } from "../../../components/client/TranslatedText";
+import  Enterprise from "../../../../public/img/enterprise.png"
+import  Enterprise2 from "../../../../public/img/enterprise2.png"
 const ProductPage=()=> {
   return (
     <div className="min-h-screen">
