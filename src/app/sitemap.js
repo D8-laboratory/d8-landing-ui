@@ -7,7 +7,7 @@ export default function sitemap() {
     pages.map((page) => ({
       url: `${baseUrl}/${locale}${page}`,
       lastModified: new Date(),
-      changeFrequency: 'monthly' as const,
+      changeFrequency: 'monthly',
       priority: page === '' ? 1 : 0.8,
     }))
   );

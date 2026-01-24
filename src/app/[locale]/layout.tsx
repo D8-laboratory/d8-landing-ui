@@ -38,10 +38,10 @@ export default async function RootLayout({
   const { resources } = await initTranslations(locale, [locale]);
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization", // O "SoftwareApplication" si prefieres
+    "@type": "Organization", 
     "name": "D8 Labs AI",
-    "url": `https://d8-landing-ui.vercel.app/${locale}`,
-    "logo": "https://d8-landing-ui.vercel.app/logo.png",
+    "url": `https://www.d8labs.ai/${locale}`,
+    "logo": "https://www.d8labs.ai/logo.png",
     "sameAs": [
       "https://linkedin.com/company/d8labs",
       "https://twitter.com/d8labs"
