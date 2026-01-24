@@ -55,5 +55,11 @@
   },
   "footer":{
     "description":"D8 Labs AI integrates AI agents to automate end-to-end business processes. We eliminate manual errors, reduce operational costs, and accelerate your business's digital transformation with scalable machine learning solutions."
+  },
+  "metadata":{
+    "title": "D8 Labs AI",
+    "Description": "We are a startup that will reduce your response time in 2x using our AI agents that will automate your tasks",
+    "ogTitle": "D8 Landing - Tech experts",
+    "ogDescription": "We transform your ideas into real digital products."
   }
 }

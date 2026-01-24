@@ -1,31 +1,27 @@
 import i18n from "i18next";
-import { initReactI18next } from "react-i18next";
-import es from "./i18n/es.json"
-import fr from "./i18n/fr.json"
-import en from "./i18n/en.json"
-const resources = {
-  en: {
-    translation: en
-  },
-  fr: {
-    translation: fr
-  },
-  es: {
-    translation: es
-  }
-};
+import { createInstance } from 'i18next';
+import { initReactI18next } from 'react-i18next/initReactI18next';
+import resourcesToBackend from 'i18next-resources-to-backend';
 
-i18n
-  .use(initReactI18next) // passes i18n down to react-i18next
-  .init({
-    resources,
-    lng: "en", // language to use, more information here: https://www.i18next.com/overview/configuration-options#languages-namespaces-resources
-    // you can use the i18n.changeLanguage function to change the language manually: https://www.i18next.com/overview/api#changelanguage
-    // if you're using a language detector, do not define the lng option
+export default async function initTranslations(locale: string, namespaces: string[]) {
+  const i18nInstance = createInstance();
 
-    interpolation: {
-      escapeValue: false // react already safes from xss
-    }
-  });
+  await i18nInstance
+    .use(initReactI18next)
+    // Esto busca tus archivos en src/app/i18n/es.json, etc.
+    .use(resourcesToBackend((language: string, namespace: string) => 
+      import(`./i18n/${language}.json`)
+    ))
+    .init({
+      lng: locale,
+      fallbackLng: 'en',
+      ns: namespaces,
+      defaultNS: namespaces[0],
+    });
 
-  export default i18n;
+  return {
+    i18n: i18nInstance,
+    resources: i18nInstance.services.resourceStore.data,
+    t: i18nInstance.t
+  };
+}

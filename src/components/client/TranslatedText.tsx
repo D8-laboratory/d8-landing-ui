@@ -1,5 +1,5 @@
 "use client"
-import { useTranslation } from "@/components/I18nProvider";
+import { useTranslation } from "react-i18next";
 
 interface TranslatedTextProps {
   i18nKey: string;

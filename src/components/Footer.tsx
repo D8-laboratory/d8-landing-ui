@@ -5,8 +5,8 @@ import { Container } from "@/components/Container";
 import { TranslatedText } from "@/components/client/TranslatedText";
 export function Footer() {
   // const navigation = ["Product", "Features", "Pricing", "Company", "Blog"];
-  const navigation = ["Product", "Pricing", "Blog"];
-  const legal = ["Terms", "Privacy", "Legal"];
+  const navigation = ["Product"];
+  //const legal = ["Terms", "Privacy", "Legal"];
   return (
     <div className="relative">
       <Container>
@@ -32,22 +32,6 @@ export function Footer() {
             <div className="max-w-md mt-4 text-gray-500 dark:text-gray-400">
               <TranslatedText i18nKey="footer.description" />
             </div>
-
-            <div className="mt-5">
-              <a
-                href="https://vercel.com/?utm_source=web3templates&utm_campaign=oss"
-                target="_blank"
-                rel="noopener"
-                className="relative block w-44"
-              >
-                <Image
-                  src="/img/vercel.svg"
-                  alt="Powered by Vercel"
-                  width="212"
-                  height="44"
-                />
-              </a>
-            </div>
           </div>
 
           <div>
@@ -65,7 +49,7 @@ export function Footer() {
           </div>
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
-              {legal.map((item, index) => (
+{/*               {legal.map((item, index) => (
                 <Link
                   key={index}
                   href="/"
@@ -73,7 +57,7 @@ export function Footer() {
                 >
                   {item}
                 </Link>
-              ))}
+              ))} */}
             </div>
           </div>
           <div className="">
@@ -111,7 +95,7 @@ export function Footer() {
           </div>
         </div>
 
-        <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
+{/*         <div className="my-10 text-sm text-center text-gray-600 dark:text-gray-400">
           Copyright © {new Date().getFullYear()}. Made with ♥ by{" "}
           <a href="https://web3templates.com/" target="_blank" rel="noopener">
             Web3Templates.
@@ -120,7 +104,7 @@ export function Footer() {
           <a href="https://www.glazestock.com/" target="_blank" rel="noopener ">
             Glazestock
           </a>
-        </div>
+        </div> */}
       </Container>
       {/* Do not remove this */}
       {/* <Backlink /> */}
