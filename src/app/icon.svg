@@ -1,0 +1,28 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <rect width="32" height="32" fill="#1a1a2e" rx="4"/>
+  
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4FC3F7"/>
+      <stop offset="100%" stop-color="#29B6F6"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- D simplificada -->
+  <path d="M 6 8 L 6 24 L 12 24 C 15 24 17 21 17 16 C 17 11 15 8 12 8 Z" 
+        stroke="url(#grad)" 
+        stroke-width="2" 
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+  
+  <!-- 8 simplificado -->
+  <circle cx="23" cy="13" r="3.5" 
+          stroke="url(#grad)" 
+          stroke-width="2" 
+          fill="none"/>
+  <circle cx="23" cy="19" r="3.5" 
+          stroke="url(#grad)" 
+          stroke-width="2" 
+          fill="none"/>
+</svg>
