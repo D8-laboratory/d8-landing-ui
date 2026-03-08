@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { Container } from "@/components/Container";
 import heroImg from "../../public/img/hero.png";
-import wekallLogo from "../../public/img/wekall.png"
 import { TranslatedText } from "@/components/client/TranslatedText";
 export const Hero = () => {
   return (
@@ -58,27 +57,7 @@ export const Hero = () => {
           </div>
         </div>
       </Container>
-      <Container>
-        <div className="flex flex-col justify-center">
-          <div className="text-xl text-center text-gray-700 dark:text-white">
-            <TranslatedText i18nKey="section1.trustedBy" /> <span className="text-indigo-600">WEKALL</span>{" "}
-          </div>
 
-          <div className="flex flex-wrap justify-center gap-5 mt-10 md:justify-around">
-            <div className="flex items-center">
-              <div className="bg-[#421A9E] px-4 py-2 rounded">
-                <Image
-                  src={wekallLogo}
-                  alt="WeKall"
-                  width={300}
-                  height={50}
-                  className="object-contain"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </Container>
     </>
   );
 }
