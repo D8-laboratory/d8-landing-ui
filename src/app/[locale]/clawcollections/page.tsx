@@ -233,9 +233,13 @@ const ClawCollectionsPage = () => {
           <p className="text-lg md:text-xl text-indigo-100 max-w-2xl mx-auto">
             <TranslatedText i18nKey="clawcollections.ctaDescription" />
           </p>
-          <button className="px-8 md:px-10 py-4 bg-white text-indigo-600 rounded-xl font-bold text-lg hover:bg-indigo-50 transition-colors shadow-lg">
+          <a
+            href="https://tally.so/r/ODPPB8"
+            target="_blank"
+            rel="noopener"
+            className="px-8 md:px-10 py-4 bg-white text-indigo-600 rounded-xl font-bold text-lg hover:bg-indigo-50 transition-colors shadow-lg inline-block">
             <TranslatedText i18nKey="clawcollections.ctaButton" />
-          </button>
+          </a>
         </div>
       </section>
 
