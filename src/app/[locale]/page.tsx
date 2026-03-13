@@ -4,20 +4,25 @@ import { SectionTitle } from "@/components/SectionTitle";
 import { Benefits } from "@/components/Benefits";
 import { benefitOne, benefitTwo } from "@/components/data";
 import { TranslatedText } from "@/components/client/TranslatedText";
+import { LifecycleVision } from "@/components/LifecycleVision";
+
 export default function Home() {
   return (
-    <Container>
-      <Hero />
-      <SectionTitle
-        preTitle={<TranslatedText i18nKey="section2.benefitsPreTitle" />}
-        title={<TranslatedText i18nKey="section2.contractus" />}
-      >
-       <TranslatedText i18nKey="section2.description" />
-      </SectionTitle>
+    <>
+      <Container>
+        <Hero />
+        <SectionTitle
+          preTitle={<TranslatedText i18nKey="section2.benefitsPreTitle" />}
+          title={<TranslatedText i18nKey="section2.contractus" />}
+        >
+         <TranslatedText i18nKey="section2.description" />
+        </SectionTitle>
 
-      <Benefits data={benefitOne} />
-      <Benefits imgPos="right" data={benefitTwo} />
+        <Benefits data={benefitOne} />
+        <Benefits imgPos="right" data={benefitTwo} />
+      </Container>
 
-    </Container>
+      <LifecycleVision />
+    </>
   );
 }

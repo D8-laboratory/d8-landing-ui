@@ -5,7 +5,7 @@
     "pricing": "Pricing",
     "company": "Company",
     "blog": "Blog",
-    "getstarted":"Get Started",
+    "getstarted": "Get Started",
     "clawcollections": "ClawCollections"
   },
   "section1": {
@@ -105,13 +105,26 @@
     "ctaDescription": "Let ClawCollections become the strategic ally your business needs — where collections are part of your core, not an afterthought.",
     "ctaButton": "Request a Demo"
   },
-  "footer":{
-    "description":"D8 Labs AI integrates AI agents to automate end-to-end business processes. We eliminate manual errors, reduce operational costs, and accelerate your business's digital transformation with scalable machine learning solutions."
+  "footer": {
+    "description": "D8 Labs AI integrates AI agents to automate end-to-end business processes. We eliminate manual errors, reduce operational costs, and accelerate your business's digital transformation with scalable machine learning solutions."
   },
-  "metadata":{
+  "metadata": {
     "title": "D8 Labs AI",
     "Description": "We are a startup that will reduce your response time in 2x using our AI agents that will automate your tasks",
     "ogTitle": "D8 Landing - Tech experts",
     "ogDescription": "We transform your ideas into real digital products."
+  },
+  "vision": {
+    "badge": "Vision",
+    "title": "Collections is just the beginning.",
+    "subtitle": "We're building a platform where personalized AI agents manage the entire customer lifecycle—from onboarding and cross-sell to upsell, collections, and retention.",
+    "subtitle2": "A new way to engage, convert, and retain customers at scale.",
+    "centerLabel": "Customer",
+    "step1": "Collections",
+    "step2": "Credit Prospecting",
+    "step3": "Credit Sales",
+    "step4": "Credit Onboarding Calls",
+    "step5": "Follow-ups",
+    "step6": "Re-purchase"
   }
 }
