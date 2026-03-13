@@ -60,7 +60,7 @@ const lifecycleSteps = [
 
 export const LifecycleVision = () => {
   return (
-    <section className="w-full py-20 bg-gradient-to-br from-purple-600 via-purple-500 to-fuchsia-500">
+    <section className="w-full py-20 bg-gradient-to-br from-indigo-700 via-indigo-600 to-blue-500">
       <div className="max-w-4xl mx-auto px-6 text-center">
 
         {/* Badge */}
@@ -101,7 +101,7 @@ export const LifecycleVision = () => {
                 <div
                   className={`w-16 h-16 rounded-full flex items-center justify-center border-2 transition-all ${
                     step.active
-                      ? "bg-white text-purple-600 border-white shadow-xl"
+                      ? "bg-white text-indigo-600 border-white shadow-xl"
                       : "bg-white/10 text-white border-white/30"
                   }`}
                 >
@@ -120,6 +120,17 @@ export const LifecycleVision = () => {
               </span>
             </div>
           ))}
+        </div>
+
+        {/* CTA */}
+        <div className="mt-14">
+          <a
+            href="https://tally.so/r/ODPPB8"
+            target="_blank"
+            rel="noopener"
+            className="inline-block px-8 py-4 text-lg font-semibold text-indigo-700 bg-white rounded-lg shadow-lg hover:bg-indigo-50 transition-colors">
+            <TranslatedText i18nKey="vision.cta" />
+          </a>
         </div>
 
       </div>
