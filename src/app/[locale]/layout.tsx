@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { ThemeProvider } from "next-themes";
+import Script from "next/script";
 import "./globals.css";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
@@ -56,6 +57,19 @@ export default async function RootLayout({
         />
       </head>
       <body className={inter.className}>
+        {/* Google Ads / gtag.js */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-464937964"
+          strategy="afterInteractive"
+        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'AW-464937964');
+          `}
+        </Script>
         <ThemeProvider attribute="class">
           <I18nProvider locale={locale} resources={resources}>
             <Navbar />
