@@ -1,9 +1,5 @@
 import { Container } from "@/components/Container";
 import { Hero } from "@/components/Hero";
-import { SectionTitle } from "@/components/SectionTitle";
-import { Benefits } from "@/components/Benefits";
-import { benefitOne, benefitTwo } from "@/components/data";
-import { TranslatedText } from "@/components/client/TranslatedText";
 import { LifecycleVision } from "@/components/LifecycleVision";
 
 export default function Home() {
@@ -11,17 +7,7 @@ export default function Home() {
     <>
       <Container>
         <Hero />
-        <SectionTitle
-          preTitle={<TranslatedText i18nKey="section2.benefitsPreTitle" />}
-          title={<TranslatedText i18nKey="section2.contractus" />}
-        >
-         <TranslatedText i18nKey="section2.description" />
-        </SectionTitle>
-
-        <Benefits data={benefitOne} />
-        <Benefits imgPos="right" data={benefitTwo} />
       </Container>
-
       <LifecycleVision />
     </>
   );
