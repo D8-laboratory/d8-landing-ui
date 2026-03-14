@@ -1,6 +1,30 @@
 import Image from "next/image";
 import { TranslatedText } from "../../../components/client/TranslatedText";
 
+const DEMO_URL = "https://tally.so/r/ODPPB8";
+
+const DemoButton = ({ className = "" }: { className?: string }) => (
+  <a
+    href={DEMO_URL}
+    target="_blank"
+    rel="noopener"
+    className={`inline-block px-8 py-4 bg-indigo-600 text-white rounded-xl font-bold text-lg hover:bg-indigo-700 transition-colors shadow-lg ${className}`}
+  >
+    <TranslatedText i18nKey="clawcollections.ctaButton" />
+  </a>
+);
+
+const DemoButtonOutline = ({ className = "" }: { className?: string }) => (
+  <a
+    href={DEMO_URL}
+    target="_blank"
+    rel="noopener"
+    className={`inline-block px-8 py-4 bg-white text-indigo-600 rounded-xl font-bold text-lg hover:bg-indigo-50 transition-colors shadow-lg ${className}`}
+  >
+    <TranslatedText i18nKey="clawcollections.ctaButton" />
+  </a>
+);
+
 const ClawCollectionsPage = () => {
   return (
     <div className="min-h-screen">
@@ -20,6 +44,10 @@ const ClawCollectionsPage = () => {
           <p className="text-base md:text-lg text-gray-500 dark:text-gray-400 leading-relaxed max-w-3xl mx-auto">
             <TranslatedText i18nKey="clawcollections.heroDescription" />
           </p>
+          {/* CTA Hero */}
+          <div className="pt-2">
+            <DemoButton />
+          </div>
         </div>
       </section>
 
@@ -61,6 +89,8 @@ const ClawCollectionsPage = () => {
                   <span><TranslatedText i18nKey="clawcollections.agentPoint3" /></span>
                 </li>
               </ul>
+              {/* CTA Agent Section */}
+              <DemoButtonOutline />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <Image
@@ -110,6 +140,11 @@ const ClawCollectionsPage = () => {
             </div>
           ))}
         </div>
+
+        {/* CTA after features */}
+        <div className="text-center mt-12">
+          <DemoButton />
+        </div>
       </section>
 
       {/* Workflow Builder Screenshot */}
@@ -122,6 +157,8 @@ const ClawCollectionsPage = () => {
             <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
               <TranslatedText i18nKey="clawcollections.workflowDescription" />
             </p>
+            {/* CTA Workflow */}
+            <DemoButton />
           </div>
           <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-700">
             <Image
@@ -155,6 +192,8 @@ const ClawCollectionsPage = () => {
               <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 <TranslatedText i18nKey="clawcollections.inboxDescription" />
               </p>
+              {/* CTA Inbox */}
+              <DemoButton />
             </div>
           </div>
 
@@ -166,6 +205,8 @@ const ClawCollectionsPage = () => {
               <p className="text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
                 <TranslatedText i18nKey="clawcollections.paymentsDescription" />
               </p>
+              {/* CTA Payments */}
+              <DemoButton />
             </div>
             <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-200 dark:border-gray-700">
               <Image
@@ -222,9 +263,14 @@ const ClawCollectionsPage = () => {
             </ul>
           </div>
         </div>
+
+        {/* CTA after vs section */}
+        <div className="text-center mt-12">
+          <DemoButton />
+        </div>
       </section>
 
-      {/* CTA */}
+      {/* Final CTA Banner */}
       <section className="bg-indigo-600 dark:bg-indigo-700 py-14 md:py-20">
         <div className="container mx-auto px-4 md:px-8 text-center space-y-6">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
@@ -233,13 +279,7 @@ const ClawCollectionsPage = () => {
           <p className="text-lg md:text-xl text-indigo-100 max-w-2xl mx-auto">
             <TranslatedText i18nKey="clawcollections.ctaDescription" />
           </p>
-          <a
-            href="https://tally.so/r/ODPPB8"
-            target="_blank"
-            rel="noopener"
-            className="px-8 md:px-10 py-4 bg-white text-indigo-600 rounded-xl font-bold text-lg hover:bg-indigo-50 transition-colors shadow-lg inline-block">
-            <TranslatedText i18nKey="clawcollections.ctaButton" />
-          </a>
+          <DemoButtonOutline />
         </div>
       </section>
 
