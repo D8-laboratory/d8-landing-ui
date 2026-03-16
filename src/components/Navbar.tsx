@@ -12,6 +12,7 @@ export const Navbar = () => {
   const locale = params.locale || "es";
   const navigation = [
     { name: "clawcollections", href: `/${locale}/clawcollections` },
+    { name: "services", href: `/${locale}/services` },
   ];
 
   return (
